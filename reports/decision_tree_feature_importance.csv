@@ -1,0 +1,46 @@
+Feature,Importance
+cat__Contract_Month-to-month,0.6095233757198654
+num__tenure,0.11112215056523819
+cat__InternetService_Fiber optic,0.1081873920967817
+num__MonthlyCharges,0.053636832796010656
+cat__Contract_Two year,0.022793110371399198
+num__TotalCharges,0.021205612916675744
+cat__TechSupport_No,0.019488365869447778
+cat__PaymentMethod_Electronic check,0.013917478404435395
+cat__OnlineSecurity_No,0.012740886965721438
+cat__PhoneService_Yes,0.011653764611881588
+cat__Dependents_Yes,0.005581818586375297
+cat__PaymentMethod_Mailed check,0.004027625812785801
+cat__StreamingMovies_No,0.003951010387614874
+cat__TechSupport_Yes,0.0017498026604652534
+cat__OnlineBackup_No,0.00042077223530156683
+cat__PhoneService_No,0.0
+cat__Dependents_No,0.0
+cat__Partner_No,0.0
+cat__Partner_Yes,0.0
+cat__gender_Female,0.0
+cat__gender_Male,0.0
+cat__MultipleLines_No phone service,0.0
+cat__MultipleLines_No,0.0
+cat__OnlineBackup_No internet service,0.0
+cat__OnlineSecurity_No internet service,0.0
+cat__OnlineSecurity_Yes,0.0
+cat__InternetService_DSL,0.0
+cat__InternetService_No,0.0
+cat__MultipleLines_Yes,0.0
+cat__TechSupport_No internet service,0.0
+cat__DeviceProtection_Yes,0.0
+cat__DeviceProtection_No,0.0
+cat__DeviceProtection_No internet service,0.0
+cat__OnlineBackup_Yes,0.0
+cat__StreamingTV_Yes,0.0
+cat__StreamingTV_No internet service,0.0
+cat__StreamingTV_No,0.0
+cat__Contract_One year,0.0
+cat__StreamingMovies_Yes,0.0
+cat__StreamingMovies_No internet service,0.0
+cat__PaperlessBilling_No,0.0
+cat__PaymentMethod_Bank transfer (automatic),0.0
+cat__PaperlessBilling_Yes,0.0
+cat__PaymentMethod_Credit card (automatic),0.0
+binary__SeniorCitizen,0.0

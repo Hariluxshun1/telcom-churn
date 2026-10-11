@@ -1,0 +1,11 @@
+{
+  "model": "Decision Tree",
+  "hyperparameters": {
+    "classifier__max_depth": 5,
+    "classifier__min_samples_leaf": 5
+  },
+  "provisional_threshold": 0.6,
+  "threshold_status": "exploratory, selected on nested OOF predictions",
+  "fit_data": "shared training split only",
+  "test_set_status": "not read by this corrected notebook; original notebook previously accessed test"
+}
