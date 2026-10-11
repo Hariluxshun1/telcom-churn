@@ -1,0 +1,2 @@
+model,threshold,accuracy,precision,recall,f1,roc_auc,average_precision
+Nested-tuned balanced Decision Tree,0.5,0.7389066382676607,0.5051020408163265,0.7946488294314381,0.6176241226930076,0.8280393451312703,0.6160532886639657
