@@ -1,0 +1,2 @@
+Model,Threshold,Test_Customers,Accuracy,Precision,Recall,F1,ROC_AUC,Average_Precision,PR_AUC_Trapezoidal,Brier_Score,Log_Loss,True_Negatives,False_Positives,False_Negatives,True_Positives
+Balanced Logistic Regression,0.6,1409,0.7622427253371186,0.5398773006134969,0.7058823529411765,0.6118192352259559,0.8416337285902502,0.6326487531063157,0.6315527952030674,0.1687062709636458,0.49665997768094,810,225,110,264
