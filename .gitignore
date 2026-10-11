@@ -4,3 +4,21 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+
+# Local Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE and temporary files
+.vs/
+.vscode/
+.Rhistory
+
+# Generated datasets
+data/processed/
+
+# Local model artifacts
+models/*.joblib
