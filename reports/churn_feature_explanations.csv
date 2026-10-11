@@ -1,0 +1,46 @@
+Feature,Coefficient,Absolute_Coefficient,Direction
+num__tenure,-1.1526030349459742,1.1526030349459742,Decreases predicted churn log-odds
+cat__Contract_Two year,-0.7759292109052404,0.7759292109052404,Decreases predicted churn log-odds
+cat__InternetService_Fiber optic,0.7123965679066935,0.7123965679066935,Increases predicted churn log-odds
+num__MonthlyCharges,-0.6877041568162394,0.6877041568162394,Decreases predicted churn log-odds
+cat__Contract_Month-to-month,0.6559640992781022,0.6559640992781022,Increases predicted churn log-odds
+cat__InternetService_DSL,-0.6277749333674308,0.6277749333674308,Decreases predicted churn log-odds
+num__TotalCharges,0.48729505660738154,0.48729505660738154,Increases predicted churn log-odds
+cat__TechSupport_No internet service,-0.279201456193612,0.279201456193612,Decreases predicted churn log-odds
+cat__DeviceProtection_No internet service,-0.279201456193612,0.279201456193612,Decreases predicted churn log-odds
+cat__OnlineSecurity_No internet service,-0.279201456193612,0.279201456193612,Decreases predicted churn log-odds
+cat__InternetService_No,-0.279201456193612,0.279201456193612,Decreases predicted churn log-odds
+cat__StreamingMovies_No internet service,-0.279201456193612,0.279201456193612,Decreases predicted churn log-odds
+cat__StreamingTV_No internet service,-0.279201456193612,0.279201456193612,Decreases predicted churn log-odds
+cat__OnlineBackup_No internet service,-0.279201456193612,0.279201456193612,Decreases predicted churn log-odds
+cat__StreamingMovies_Yes,0.27679413459615243,0.27679413459615243,Increases predicted churn log-odds
+cat__PaperlessBilling_No,-0.26507960602736697,0.26507960602736697,Decreases predicted churn log-odds
+cat__StreamingTV_Yes,0.26412769502454336,0.26412769502454336,Increases predicted churn log-odds
+cat__PaymentMethod_Electronic check,0.23894903266686807,0.23894903266686807,Increases predicted churn log-odds
+cat__MultipleLines_No,-0.21562031536487236,0.21562031536487236,Decreases predicted churn log-odds
+cat__Dependents_Yes,-0.21195737100469775,0.21195737100469775,Decreases predicted churn log-odds
+cat__OnlineSecurity_No,0.19804780764532895,0.19804780764532895,Increases predicted churn log-odds
+cat__StreamingMovies_No,-0.19217250005690084,0.19217250005690084,Decreases predicted churn log-odds
+cat__StreamingTV_No,-0.17950606048527892,0.17950606048527892,Decreases predicted churn log-odds
+cat__TechSupport_No,0.16401165811184956,0.16401165811184956,Increases predicted churn log-odds
+cat__PaymentMethod_Bank transfer (automatic),-0.16194987998493418,0.16194987998493418,Decreases predicted churn log-odds
+cat__PaymentMethod_Credit card (automatic),-0.1616986410566824,0.1616986410566824,Decreases predicted churn log-odds
+binary__SeniorCitizen,0.15102851840623455,0.15102851840623455,Increases predicted churn log-odds
+cat__MultipleLines_Yes,0.13405442844368726,0.13405442844368726,Increases predicted churn log-odds
+cat__OnlineSecurity_Yes,-0.11342617310608717,0.11342617310608717,Decreases predicted churn log-odds
+cat__gender_Female,-0.11306564438844624,0.11306564438844624,Decreases predicted churn log-odds
+cat__PhoneService_No,-0.11301393473319235,0.11301393473319235,Decreases predicted churn log-odds
+cat__MultipleLines_No phone service,-0.11301393473319235,0.11301393473319235,Decreases predicted churn log-odds
+cat__PaymentMethod_Mailed check,-0.10988033327960536,0.10988033327960536,Decreases predicted churn log-odds
+cat__Partner_No,-0.10640806563088076,0.10640806563088076,Decreases predicted churn log-odds
+cat__Partner_Yes,-0.08817175602348365,0.08817175602348365,Decreases predicted churn log-odds
+cat__PhoneService_Yes,-0.08156588692116404,0.08156588692116404,Decreases predicted churn log-odds
+cat__gender_Male,-0.08151417726591227,0.08151417726591227,Decreases predicted churn log-odds
+cat__TechSupport_Yes,-0.07939002357260568,0.07939002357260568,Decreases predicted churn log-odds
+cat__Contract_One year,-0.07461471002724251,0.07461471002724251,Decreases predicted churn log-odds
+cat__DeviceProtection_Yes,0.07440773941546672,0.07440773941546672,Increases predicted churn log-odds
+cat__PaperlessBilling_Yes,0.07049978437299542,0.07049978437299542,Increases predicted churn log-odds
+cat__OnlineBackup_No,0.06710110193919376,0.06710110193919376,Increases predicted churn log-odds
+cat__OnlineBackup_Yes,0.017520532600055195,0.017520532600055195,Increases predicted churn log-odds
+cat__Dependents_No,0.017377549350332127,0.017377549350332127,Increases predicted churn log-odds
+cat__DeviceProtection_No,0.010213895123771211,0.010213895123771211,Increases predicted churn log-odds

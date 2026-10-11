@@ -1,0 +1,19 @@
+Feature,Risk_Segment,Month-to-month,One year,Two year,DSL,Fiber optic,No,Bank transfer (automatic),Credit card (automatic),Electronic check,Mailed check,No internet service,Yes
+Contract,Low,10.32,33.22,56.46,,,,,,,,,
+Contract,Medium,73.09,25.63,1.29,,,,,,,,,
+Contract,High,98.6,1.4,0.0,,,,,,,,,
+InternetService,Low,,,,41.94,19.33,38.74,,,,,,
+InternetService,Medium,,,,39.01,40.01,20.97,,,,,,
+InternetService,High,,,,21.27,78.68,0.05,,,,,,
+PaymentMethod,Low,,,,,,,31.24,31.92,10.57,26.27,,
+PaymentMethod,Medium,,,,,,,21.55,19.47,28.42,30.57,,
+PaymentMethod,High,,,,,,,10.79,9.83,66.76,12.62,,
+OnlineSecurity,Low,,,,,,18.44,,,,,38.74,42.82
+OnlineSecurity,Medium,,,,,,49.32,,,,,20.97,29.71
+OnlineSecurity,High,,,,,,89.69,,,,,0.05,10.26
+TechSupport,Low,,,,,,17.89,,,,,38.74,43.37
+TechSupport,Medium,,,,,,51.11,,,,,20.97,27.92
+TechSupport,High,,,,,,87.65,,,,,0.05,12.3
+PaperlessBilling,Low,,,,,,57.01,,,,,,42.99
+PaperlessBilling,Medium,,,,,,41.09,,,,,,58.91
+PaperlessBilling,High,,,,,,20.14,,,,,,79.86
