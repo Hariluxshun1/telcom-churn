@@ -1,0 +1,4 @@
+Risk_Segment,Priority,Customer_Profile,Recommended_Action,Business_Rationale
+High,High,"Often month-to-month, shorter tenure, fiber optic internet, electronic check","Prioritize personalized retention outreach, review billing and service concerns, and offer suitable contract options",These customers receive higher model-estimated churn scores and may benefit from targeted attention
+Medium,Medium,Intermediate tenure and model-estimated churn risk,"Provide proactive support, service-quality checks, and relevant loyalty communications",Early engagement may help address customer concerns before they become more serious
+Low,Low,Often longer tenure and longer-term contracts,"Maintain reliable service, regular communication, and appropriate loyalty benefits",Maintain customer satisfaction without spending disproportionate retention resources
