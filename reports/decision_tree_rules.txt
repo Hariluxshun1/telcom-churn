@@ -1,190 +1,91 @@
 |--- cat__Contract_Month-to-month <= 0.50
-|   |--- num__MonthlyCharges <= 0.95
+|   |--- num__MonthlyCharges <= 93.67
 |   |   |--- cat__OnlineSecurity_No <= 0.50
 |   |   |   |--- cat__Contract_Two year <= 0.50
-|   |   |   |   |--- num__MonthlyCharges <= 0.24
-|   |   |   |   |   |--- cat__PaymentMethod_Electronic check <= 0.50
-|   |   |   |   |   |   |--- cat__PaymentMethod_Bank transfer (automatic) <= 0.50
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |--- cat__PaymentMethod_Bank transfer (automatic) >  0.50
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- cat__PaymentMethod_Electronic check >  0.50
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |--- num__MonthlyCharges >  0.24
-|   |   |   |   |   |--- cat__PaperlessBilling_No <= 0.50
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- cat__PaperlessBilling_No >  0.50
-|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__MonthlyCharges <= 72.17
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__MonthlyCharges >  72.17
+|   |   |   |   |   |--- class: 0
 |   |   |   |--- cat__Contract_Two year >  0.50
 |   |   |   |   |--- cat__OnlineBackup_No <= 0.50
-|   |   |   |   |   |--- num__tenure <= 1.38
-|   |   |   |   |   |   |--- num__tenure <= 0.81
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |--- num__tenure >  0.81
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- num__tenure >  1.38
-|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- class: 0
 |   |   |   |   |--- cat__OnlineBackup_No >  0.50
-|   |   |   |   |   |--- num__tenure <= 1.26
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- num__tenure >  1.26
-|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- class: 0
 |   |   |--- cat__OnlineSecurity_No >  0.50
 |   |   |   |--- cat__Contract_Two year <= 0.50
-|   |   |   |   |--- cat__PaperlessBilling_No <= 0.50
-|   |   |   |   |   |--- cat__StreamingMovies_No <= 0.50
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- cat__StreamingMovies_No >  0.50
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |--- cat__PaperlessBilling_No >  0.50
-|   |   |   |   |   |--- num__MonthlyCharges <= 0.00
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- num__MonthlyCharges >  0.00
-|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cat__PaymentMethod_Mailed check <= 0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cat__PaymentMethod_Mailed check >  0.50
+|   |   |   |   |   |--- class: 0
 |   |   |   |--- cat__Contract_Two year >  0.50
-|   |   |   |   |--- cat__Dependents_No <= 0.50
+|   |   |   |   |--- num__MonthlyCharges <= 54.47
 |   |   |   |   |   |--- class: 0
-|   |   |   |   |--- cat__Dependents_No >  0.50
+|   |   |   |   |--- num__MonthlyCharges >  54.47
 |   |   |   |   |   |--- class: 0
-|   |--- num__MonthlyCharges >  0.95
+|   |--- num__MonthlyCharges >  93.67
 |   |   |--- cat__Contract_Two year <= 0.50
-|   |   |   |--- cat__Dependents_Yes <= 0.50
-|   |   |   |   |--- num__MonthlyCharges <= 1.27
-|   |   |   |   |   |--- num__TotalCharges <= 1.25
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- num__TotalCharges >  1.25
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |--- num__MonthlyCharges >  1.27
-|   |   |   |   |   |--- num__MonthlyCharges <= 1.38
-|   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- num__MonthlyCharges >  1.38
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |--- cat__Dependents_Yes >  0.50
-|   |   |   |   |--- class: 0
-|   |   |--- cat__Contract_Two year >  0.50
-|   |   |   |--- num__TotalCharges <= 2.39
-|   |   |   |   |--- num__MonthlyCharges <= 1.36
-|   |   |   |   |   |--- cat__OnlineSecurity_No <= 0.50
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- cat__OnlineSecurity_No >  0.50
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |--- num__MonthlyCharges >  1.36
+|   |   |   |--- cat__StreamingMovies_No <= 0.50
+|   |   |   |   |--- cat__Dependents_Yes <= 0.50
 |   |   |   |   |   |--- class: 0
-|   |   |   |--- num__TotalCharges >  2.39
+|   |   |   |   |--- cat__Dependents_Yes >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- cat__StreamingMovies_No >  0.50
+|   |   |   |   |--- cat__PaymentMethod_Electronic check <= 0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cat__PaymentMethod_Electronic check >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |--- cat__Contract_Two year >  0.50
+|   |   |   |--- num__TotalCharges <= 7755.60
+|   |   |   |   |--- num__MonthlyCharges <= 105.92
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__MonthlyCharges >  105.92
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- num__TotalCharges >  7755.60
 |   |   |   |   |--- class: 0
 |--- cat__Contract_Month-to-month >  0.50
 |   |--- cat__InternetService_Fiber optic <= 0.50
-|   |   |--- num__tenure <= -1.10
+|   |   |--- num__tenure <= 5.50
 |   |   |   |--- cat__TechSupport_No <= 0.50
-|   |   |   |   |--- num__TotalCharges <= -1.00
-|   |   |   |   |   |--- num__TotalCharges <= -1.00
-|   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- num__TotalCharges >  -1.00
-|   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- num__TotalCharges >  -1.00
-|   |   |   |   |   |--- cat__StreamingMovies_No <= 0.50
-|   |   |   |   |   |   |--- num__MonthlyCharges <= -1.48
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |--- num__MonthlyCharges >  -1.48
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- cat__StreamingMovies_No >  0.50
-|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__TotalCharges <= 21.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__TotalCharges >  21.00
+|   |   |   |   |   |--- class: 0
 |   |   |   |--- cat__TechSupport_No >  0.50
-|   |   |   |   |--- cat__OnlineSecurity_Yes <= 0.50
-|   |   |   |   |   |--- num__TotalCharges <= -0.97
-|   |   |   |   |   |   |--- cat__PhoneService_No <= 0.50
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- cat__PhoneService_No >  0.50
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- num__TotalCharges >  -0.97
-|   |   |   |   |   |   |--- num__MonthlyCharges <= -0.62
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- num__MonthlyCharges >  -0.62
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- cat__OnlineSecurity_Yes >  0.50
+|   |   |   |   |--- num__TotalCharges <= 201.62
 |   |   |   |   |   |--- class: 1
-|   |   |--- num__tenure >  -1.10
+|   |   |   |   |--- num__TotalCharges >  201.62
+|   |   |   |   |   |--- class: 1
+|   |   |--- num__tenure >  5.50
 |   |   |   |--- cat__PhoneService_Yes <= 0.50
-|   |   |   |   |--- cat__PaymentMethod_Electronic check <= 0.50
-|   |   |   |   |   |--- num__tenure <= -0.45
-|   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- num__tenure >  -0.45
-|   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- cat__PaymentMethod_Electronic check >  0.50
+|   |   |   |   |--- cat__Dependents_Yes <= 0.50
 |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cat__Dependents_Yes >  0.50
+|   |   |   |   |   |--- class: 0
 |   |   |   |--- cat__PhoneService_Yes >  0.50
-|   |   |   |   |--- num__tenure <= -0.41
-|   |   |   |   |   |--- num__MonthlyCharges <= -0.69
-|   |   |   |   |   |   |--- cat__PaymentMethod_Mailed check <= 0.50
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |--- cat__PaymentMethod_Mailed check >  0.50
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- num__MonthlyCharges >  -0.69
-|   |   |   |   |   |   |--- cat__PaymentMethod_Electronic check <= 0.50
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |--- cat__PaymentMethod_Electronic check >  0.50
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- num__tenure >  -0.41
-|   |   |   |   |   |--- cat__TechSupport_No <= 0.50
-|   |   |   |   |   |   |--- cat__Partner_Yes <= 0.50
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |   |--- cat__Partner_Yes >  0.50
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |   |--- cat__TechSupport_No >  0.50
-|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__tenure <= 22.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__tenure >  22.50
+|   |   |   |   |   |--- class: 0
 |   |--- cat__InternetService_Fiber optic >  0.50
-|   |   |--- num__tenure <= -0.77
-|   |   |   |--- num__TotalCharges <= -0.96
-|   |   |   |   |--- num__TotalCharges <= -0.98
-|   |   |   |   |   |--- num__TotalCharges <= -0.98
-|   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- num__TotalCharges >  -0.98
-|   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- num__TotalCharges >  -0.98
+|   |   |--- num__tenure <= 13.50
+|   |   |   |--- num__TotalCharges <= 120.00
+|   |   |   |   |--- cat__TechSupport_Yes <= 0.50
 |   |   |   |   |   |--- class: 1
-|   |   |   |--- num__TotalCharges >  -0.96
-|   |   |   |   |--- num__MonthlyCharges <= 0.44
-|   |   |   |   |   |--- cat__MultipleLines_No <= 0.50
-|   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- cat__MultipleLines_No >  0.50
-|   |   |   |   |   |   |--- num__TotalCharges <= -0.86
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- num__TotalCharges >  -0.86
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- num__MonthlyCharges >  0.44
-|   |   |   |   |   |--- cat__OnlineSecurity_Yes <= 0.50
-|   |   |   |   |   |   |--- cat__MultipleLines_No <= 0.50
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- cat__MultipleLines_No >  0.50
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- cat__OnlineSecurity_Yes >  0.50
-|   |   |   |   |   |   |--- class: 1
-|   |   |--- num__tenure >  -0.77
+|   |   |   |   |--- cat__TechSupport_Yes >  0.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- num__TotalCharges >  120.00
+|   |   |   |   |--- num__MonthlyCharges <= 78.20
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__MonthlyCharges >  78.20
+|   |   |   |   |   |--- class: 1
+|   |   |--- num__tenure >  13.50
 |   |   |   |--- cat__PaymentMethod_Electronic check <= 0.50
-|   |   |   |   |--- num__tenure <= 0.77
-|   |   |   |   |   |--- cat__StreamingMovies_No <= 0.50
-|   |   |   |   |   |   |--- num__tenure <= 0.00
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- num__tenure >  0.00
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- cat__StreamingMovies_No >  0.50
-|   |   |   |   |   |   |--- num__MonthlyCharges <= 0.35
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- num__MonthlyCharges >  0.35
-|   |   |   |   |   |   |   |--- class: 0
-|   |   |   |   |--- num__tenure >  0.77
+|   |   |   |   |--- num__tenure <= 51.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__tenure >  51.50
 |   |   |   |   |   |--- class: 0
 |   |   |   |--- cat__PaymentMethod_Electronic check >  0.50
-|   |   |   |   |--- num__tenure <= 0.94
-|   |   |   |   |   |--- cat__MultipleLines_No <= 0.50
-|   |   |   |   |   |   |--- num__tenure <= -0.16
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- num__tenure >  -0.16
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |--- cat__MultipleLines_No >  0.50
-|   |   |   |   |   |   |--- num__tenure <= -0.37
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |   |   |--- num__tenure >  -0.37
-|   |   |   |   |   |   |   |--- class: 1
-|   |   |   |   |--- num__tenure >  0.94
+|   |   |   |   |--- num__tenure <= 55.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- num__tenure >  55.50
 |   |   |   |   |   |--- class: 1
